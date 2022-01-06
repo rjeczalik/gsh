@@ -1,0 +1,20 @@
+FROM ubuntu:20.04
+
+RUN apt update && \
+    apt install -y openssh-server sudo && \
+    sed -i -e 's:#PubkeyAuthentication.*:PubkeyAuthentication yes:g' /etc/ssh/sshd_config && \
+    sed -i -e 's:#PasswordAuthentication.*:PasswordAuthentication no:g' /etc/ssh/sshd_config && \
+    useradd -G sudo -m sshtest && \
+    sudo -u sshtest mkdir /home/sshtest/.ssh && \
+    sudo -u sshtest chmod 0700 /home/sshtest/.ssh
+
+COPY sshtest.pub /home/sshtest/.ssh/authorized_keys
+
+RUN chown sshtest:sshtest /home/sshtest/.ssh/authorized_keys && \
+    sudo -u sshtest chmod 0600 /home/sshtest/.ssh/authorized_keys && \
+	mkdir -p /run/sshd
+
+EXPOSE 22
+
+CMD ["/usr/sbin/sshd", "-D", "-e"]
+

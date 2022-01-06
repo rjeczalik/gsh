@@ -1,0 +1,35 @@
+[
+	{
+		"stricthostkeychecking": "no",
+		"globalknownhostsfile": "/dev/null",
+		"userknownhostsfile": "/dev/null",
+		"host": ""
+	},
+	{
+		"stricthostkeychecking": "no",
+		"globalknownhostsfile": "/dev/null",
+		"userknownhostsfile": "/dev/null",
+		"tcpkeepalive": "yes",
+		"connecttimeout": "10",
+		"host": ""
+	},
+	{
+		"stricthostkeychecking": "no",
+		"globalknownhostsfile": "/dev/null",
+		"userknownhostsfile": "/dev/null",
+		"tcpkeepalive": "yes",
+		"connecttimeout": "10",
+		"host": ""
+	},
+	{
+		"stricthostkeychecking": "no",
+		"globalknownhostsfile": "/dev/null",
+		"userknownhostsfile": "/dev/null",
+		"tcpkeepalive": "yes",
+		"connecttimeout": "10",
+		"connectionattempts": "3",
+		"serveraliveinterval": "60",
+		"serveralivecountmax": "5",
+		"host": ""
+	}
+]

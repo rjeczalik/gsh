@@ -1,0 +1,6 @@
+[
+	["-o", "StrictHostKeyChecking=no", "-o", "GlobalKnownHostsFile=/dev/null", "-o", "UserKnownHostsFile=/dev/null"],
+	["-o", "StrictHostKeyChecking=no", "-o", "GlobalKnownHostsFile=/dev/null", "-o", "UserKnownHostsFile=/dev/null", "-o", "TcpKeepAlive=yes", "-o", "ConnectTimeout=10"],
+	["-o", "StrictHostKeyChecking=no", "-o", "GlobalKnownHostsFile=/dev/null", "-o", "UserKnownHostsFile=/dev/null", "-o", "TcpKeepAlive=yes", "-o", "ConnectTimeout=10"],
+	["-o", "StrictHostKeyChecking=no", "-o", "GlobalKnownHostsFile=/dev/null", "-o", "UserKnownHostsFile=/dev/null", "-o", "TcpKeepAlive=yes", "-o", "ConnectTimeout=10", "-o", "ConnectionAttempts=3", "-o", "ServerAliveInterval=60", "-o", "ServerAliveCountMax=5"]
+]
