@@ -5,7 +5,7 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/tectumsh/gsh"
+	"github.com/rjeczalik/gsh"
 )
 
 func Callback(callbacks ...gsh.ConfigCallback) gsh.ConfigCallback {

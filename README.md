@@ -20,7 +20,7 @@ docker run --rm -d -ti -p 2222:22 -P sshtest-ubuntu:latest
 Then build the `gsh` command line tool and connect to the container:
 
 ```bash
-go build github.com/tectumsh/gsh/cmd/gsh
+go build github.com/rjeczalik/gsh/cmd/gsh
 ```
 ```bash
 gsh -F sshtest/ssh.config sshtest
@@ -43,9 +43,9 @@ import (
 	"context"
 	"log"
 
-	"github.com/tectumsh/gsh"
-	"github.com/tectumsh/gsh/sshfile"
-	"github.com/tectumsh/gsh/sshutil"
+	"github.com/rjeczalik/gsh"
+	"github.com/rjeczalik/gsh/sshfile"
+	"github.com/rjeczalik/gsh/sshutil"
 )
 
 func main() {

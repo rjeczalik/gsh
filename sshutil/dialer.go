@@ -7,7 +7,7 @@ import (
 	"net"
 	"time"
 
-	"github.com/tectumsh/gsh"
+	"github.com/rjeczalik/gsh"
 )
 
 func init() {

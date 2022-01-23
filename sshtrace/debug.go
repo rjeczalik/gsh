@@ -6,8 +6,8 @@ import (
 	"log"
 	"os"
 
-	"github.com/tectumsh/gsh"
-	"github.com/tectumsh/gsh/sshfile"
+	"github.com/rjeczalik/gsh"
+	"github.com/rjeczalik/gsh/sshfile"
 )
 
 var _ = Debug("/tmp")

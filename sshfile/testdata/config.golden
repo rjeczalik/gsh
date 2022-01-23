@@ -2,25 +2,25 @@
 	{
 		"hostname": "123.45.6.7",
 		"user": "centos",
-		"identityfile": "/home/rjeczalik/src/github.com/tectumsh/ssh/testdata/jumpbox1.pem",
+		"identityfile": "/home/rjeczalik/src/github.com/rjeczalik/ssh/testdata/jumpbox1.pem",
 		"host": "jumpbox1"
 	},
 	{
 		"hostname": "123.45.6.7",
 		"user": "centos",
-		"identityfile": "/home/rjeczalik/src/github.com/tectumsh/ssh/testdata/jumpbox1.pem",
+		"identityfile": "/home/rjeczalik/src/github.com/rjeczalik/ssh/testdata/jumpbox1.pem",
 		"host": "123\\.45\\.6\\.7"
 	},
 	{
 		"hostname": "123.45.6.8",
 		"user": "centos",
-		"identityfile": "/home/rjeczalik/src/github.com/tectumsh/ssh/testdata/jumpbox2.pem",
+		"identityfile": "/home/rjeczalik/src/github.com/rjeczalik/ssh/testdata/jumpbox2.pem",
 		"host": "jumpbox2"
 	},
 	{
 		"hostname": "123.45.6.8",
 		"user": "centos",
-		"identityfile": "/home/rjeczalik/src/github.com/tectumsh/ssh/testdata/jumpbox2.pem",
+		"identityfile": "/home/rjeczalik/src/github.com/rjeczalik/ssh/testdata/jumpbox2.pem",
 		"host": "123\\.45\\.6\\.8"
 	},
 	{
@@ -30,7 +30,7 @@
 		"serveralivecountmax": "10",
 		"hostname": "123.45.7.8",
 		"user": "centos",
-		"identityfile": "/home/rjeczalik/src/github.com/tectumsh/ssh/testdata/jumpbox3.pem",
+		"identityfile": "/home/rjeczalik/src/github.com/rjeczalik/ssh/testdata/jumpbox3.pem",
 		"host": "jumpbox3"
 	},
 	{
@@ -40,7 +40,7 @@
 		"serveralivecountmax": "10",
 		"hostname": "123.45.7.8",
 		"user": "centos",
-		"identityfile": "/home/rjeczalik/src/github.com/tectumsh/ssh/testdata/jumpbox3.pem",
+		"identityfile": "/home/rjeczalik/src/github.com/rjeczalik/ssh/testdata/jumpbox3.pem",
 		"host": "123\\.45\\.7\\.8"
 	},
 	{

@@ -3,8 +3,8 @@ package sshtrace
 import (
 	"context"
 
-	"github.com/tectumsh/gsh"
-	"github.com/tectumsh/gsh/sshfile"
+	"github.com/rjeczalik/gsh"
+	"github.com/rjeczalik/gsh/sshfile"
 )
 
 type contextKey struct{ string }

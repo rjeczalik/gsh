@@ -4,9 +4,9 @@ import (
 	"context"
 	"log"
 
-	"github.com/tectumsh/gsh"
-	"github.com/tectumsh/gsh/sshfile"
-	"github.com/tectumsh/gsh/sshutil"
+	"github.com/rjeczalik/gsh"
+	"github.com/rjeczalik/gsh/sshfile"
+	"github.com/rjeczalik/gsh/sshutil"
 )
 
 func main() {

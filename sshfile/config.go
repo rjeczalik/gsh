@@ -13,8 +13,8 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/tectumsh/gsh"
-	"github.com/tectumsh/gsh/sshutil"
+	"github.com/rjeczalik/gsh"
+	"github.com/rjeczalik/gsh/sshutil"
 
 	xssh "golang.org/x/crypto/ssh"
 	"golang.org/x/crypto/ssh/knownhosts"

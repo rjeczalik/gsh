@@ -4,7 +4,7 @@ import (
 	"io/ioutil"
 	"testing"
 
-	"github.com/tectumsh/gsh/sshtest"
+	"github.com/rjeczalik/gsh/sshtest"
 )
 
 func TestFixture(t *testing.T) {

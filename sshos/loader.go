@@ -6,10 +6,10 @@ import (
 	"os"
 	"sync"
 
-	"github.com/tectumsh/gsh"
-	"github.com/tectumsh/gsh/sshfile"
-	"github.com/tectumsh/gsh/sshtrace"
-	"github.com/tectumsh/gsh/sshutil"
+	"github.com/rjeczalik/gsh"
+	"github.com/rjeczalik/gsh/sshfile"
+	"github.com/rjeczalik/gsh/sshtrace"
+	"github.com/rjeczalik/gsh/sshutil"
 
 	xssh "golang.org/x/crypto/ssh"
 	"golang.org/x/crypto/ssh/knownhosts"

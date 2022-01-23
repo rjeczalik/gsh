@@ -5,7 +5,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/tectumsh/gsh/sshfile"
+	"github.com/rjeczalik/gsh/sshfile"
 	"github.com/google/go-cmp/cmp"
 )
 

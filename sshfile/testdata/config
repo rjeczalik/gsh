@@ -10,17 +10,17 @@ ServerAliveCountMax 5
 Host jumpbox1 123.45.6.7
 	User centos
 	Hostname 123.45.6.7
-	IdentityFile /home/rjeczalik/src/github.com/tectumsh/ssh/testdata/jumpbox1.pem
+	IdentityFile /home/rjeczalik/src/github.com/rjeczalik/ssh/testdata/jumpbox1.pem
 
 Host jumpbox2 123.45.6.8
 	User centos
 	Hostname 123.45.6.8
-	IdentityFile /home/rjeczalik/src/github.com/tectumsh/ssh/testdata/jumpbox2.pem
+	IdentityFile /home/rjeczalik/src/github.com/rjeczalik/ssh/testdata/jumpbox2.pem
 
 Host jumpbox3 123.45.7.8
 	User centos
 	Hostname 123.45.7.8
-	IdentityFile /home/rjeczalik/src/github.com/tectumsh/ssh/testdata/jumpbox3.pem
+	IdentityFile /home/rjeczalik/src/github.com/rjeczalik/ssh/testdata/jumpbox3.pem
 	ConnectTimeout 10
 	ConnectionAttempts 6
 	ServerAliveInterval 120

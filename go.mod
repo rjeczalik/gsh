@@ -1,4 +1,4 @@
-module github.com/tectumsh/gsh
+module github.com/rjeczalik/gsh
 
 go 1.13
 
